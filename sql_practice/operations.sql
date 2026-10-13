@@ -84,3 +84,26 @@ CHANGE age emo_age VARCHAR(50);
 
 ALTER TABLE employee
 RENAME COLUMN name TO new_name;
+
+
+-- REANMING TABLE NAME - DDL 
+
+RENAME TABLE employee TO employees;
+
+
+-- select command 
+
+
+SELECT * FROM employees;
+
+-- Truncate command 
+
+TRUNCATE TABLE employees; 
+
+-- the whole data is cleared , but the structure is preserved.
+
+--  Distinct Keyword
+
+SELECT DISTINCT department FROM employee;
+
+
