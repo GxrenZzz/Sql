@@ -72,3 +72,7 @@ SELECT * FROM emp WHERE name LIKE "_r%";
 -- between opearator COMMENT
 
 SELECT * FROM emp WHERE salary BETWEEN 23000 and 230000;
+
+-- Limit CLause COMMENT
+
+SELECT * FROM emp LIMIT 2;
