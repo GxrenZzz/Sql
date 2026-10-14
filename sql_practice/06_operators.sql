@@ -76,3 +76,27 @@ SELECT * FROM emp WHERE salary BETWEEN 23000 and 230000;
 -- Limit CLause COMMENT
 
 SELECT * FROM emp LIMIT 2;
+
+-- sorting the order in ascending or descending order 
+
+SELECT * FROM emp
+ORDER BY salary DESC;
+
+-- Practice Questions
+
+SELECT * FROM emp
+WHERE id = 1;
+
+SELECT * FROM emp
+WHERE id = 1 and city ="Delhi";
+
+
+SELECT * FROM emp WHERE salary > 30000 and city = "Pune";
+
+
+SELECT * FROM emp WHERE city NOT IN ("Delhi");
+
+
+SELECT * FROM emp 
+ORDER BY salary DESC
+LIMIT 2;
