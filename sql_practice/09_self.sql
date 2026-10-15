@@ -64,3 +64,11 @@ WHERE customer.id IS NULL;
 
 SELECT * from customer;
 SELECT * from orders;
+
+-- Union COMMENT
+
+SELECT id FROM customer
+UNION 
+SELECT id FROM orders;
+
+-- Union all
