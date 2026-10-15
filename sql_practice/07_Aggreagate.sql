@@ -55,3 +55,4 @@ SELECT city , COUNT(name) as total_emp
 FROM emp
 GROUP BY city
 ORDER BY total_emp DESC;
+
